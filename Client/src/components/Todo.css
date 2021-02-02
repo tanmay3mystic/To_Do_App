@@ -1,0 +1,109 @@
+
+
+/* #main {
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(to right , #65dfc9 , #6cdbeb) ;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+.glass-list , .glass-todoAdd {
+  height:auto;
+  width: 100%;
+  padding: 10px;
+  background-color:white ;
+  background:linear-gradient(to top left ,
+              rgba(255,255,255,0.6) , rgba(255,255,255,0.3)) ;
+    border-radius: 2rem;
+    z-index: 3;
+    backdrop-filter: blur(1rem);
+}
+.glass-list ,  {
+    overflow-y: scroll;
+}
+.glass-todoAdd {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:5px;
+    margin-top: 15px;
+}
+
+.glass-todoAdd .Buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   height: 100%;
+   width: 15%;
+   border-radius: 10%;
+}
+
+.glass-todoAdd button {
+    height: 60%;
+    width: 100%;
+    border-radius: 25%;
+    outline: none;
+    background:linear-gradient(to bottom right ,
+              rgba(56, 238, 183, 0.697) , rgba(255,255,255,0.3)) ;
+    font-size: medium;
+    color: azure;
+}
+.glass-todoAdd .add-list {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    align-items:space-evenly;
+    justify-content: space-evenly;
+}
+
+.glass-todoAdd .add-list input {
+    margin: 0 5px;
+    padding: 2px 5px;
+    opacity: 0.4;
+    outline: none;
+    border-radius: 2rem;
+    border: none;
+    border-bottom: 1px solid grey;
+    box-shadow: 2px 2px 10px grey;
+}
+
+.glass-list .listItem-card {
+    
+    height: auto;
+    width:100%;
+    margin: 5px 10px 0 0px;
+    display: flex;
+    flex-flow: row wrap ;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(245, 224, 224) ;
+    background: rgba(255 , 255,255,0.5);
+    border-radius: 5px;
+    overflow-y: scroll;
+
+}
+
+
+
+.circle1 , .circle2 {
+    position: absolute ;
+    height:10rem ;
+    width: 10rem;
+    background: linear-gradient(to right bottom , rgba(155,255,255,0.6),rgba(255,255,255,0.2));
+    border-radius: 50%;
+    outline:none ;
+}
+.circle1 {
+    top: 17%;
+    right: 10%;
+}
+.circle2 {
+    bottom: 17%;
+    left: 10%;
+}
